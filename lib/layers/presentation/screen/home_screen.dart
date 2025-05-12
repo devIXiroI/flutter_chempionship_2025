@@ -12,11 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(20),
-      child: Column(
-        children: [
-          FlutterLogo()
-        ],
-      ),
+      child: Column(children: [FlutterLogo()]),
     );
   }
 }
