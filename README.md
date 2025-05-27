@@ -2,7 +2,7 @@
 
 Этот проект представляет собой верстку шаблона чемпионатного приложения. Так как это лишь верстка, то многие функции упрощены или полностью удалены.
 
-## Getting Started
+# Getting Started
 
 ```
 flutter pub get
@@ -17,8 +17,7 @@ flutter pub run build_ranner build
 chose android
 ```
 
-## Screenshoots
-###### Hover the mouse cursor over the images for explanations.
+# Screenshoots
 
 **Documentation**
 ##### Presentation
