@@ -1,10 +1,6 @@
-# [Worldskills 2025](https://pro.firpo.ru/)  mobile development app 
+# Mobile development app 
 
-<p>Разработка велась с использованием последней стабильной версии Flutter на момент проекта.
-<br/>
-Этот проект представляет собой шаблон чемпионатного приложения, использующий метод управления состоянием Mobx в Flutter. Он включает операции CRUD (Создание, Чтение, Обновление, Удаление) для пользователей и аутентификацию, что делает его реалистичным примером для реальных сценариев. Чтобы продемонстрировать, что нативные приложения можно создавать с помощью Flutter, в пользовательском интерфейсе проекта использовались компоненты, максимально приближенные к нативным, вместо стандартных компонентов Flutter.
-<br/>
-Разработка велась с использованием последней стабильной версии Flutter на момент проекта..</p>
+Этот проект представляет собой верстку шаблона чемпионатного приложения. Так как это лишь верстка, то многие функции упрощены или полностью удалены.
 
 ![Worldskills 2025](https://github.com/m9m9ra/flutter_championship_2025/blob/main/publication/preview.png)
 
@@ -20,23 +16,8 @@ flutter pub run build_ranner build
 ```
 
 ```
-chose ios / android
+chose android
 ```
-
-### API Integration
-<p>A Rest API is used for user operations, and the API code is not included in this repository. You can develop API endpoints according to the UserModel class in the project to make it suitable for use. You need to update the BASE_URL value in the '.env' file content to match your API structure. You can find the naming used for CRUD and authentication endpoints in the UserService class, and you may need to revise it according to your API structure.</p>
-
-#
-### Supabase Integration
-<p>The project uses Storage for uploading images and accessing them via URL, Extensions and Firestore Database for email infrastructure and Functions for triggering email sending. Therefore, you will need a supabase project.</p>
-
-<!-- #
-### Firebase Trigger Email Extension Integration
-<p>For email verification, a verification code is sent to the email address provided by the user. The Firebase Trigger Email extension is used for email infrastructure. You need to activate this extension via the Firebase console. Besides verification code sending, the email infrastructure is used for different scenarios as well. Email sending is triggered by Firebase Cloud Functions.</p> -->
-
-<!-- #
-### Firebase Cloud Functions Integration
-<p>The project already includes the functions folder and firebase.json file to be added with Cloud Functions. If you specify that the functions/index.js file should be overwritten while integrating cloud functions, you will delete the cloud functions that you need to deploy for the email infrastructure from the file. You can skip the overwrite step with the "No" option, or if it is overwritten, you can copy and deploy the functions again from the relevant file in this Github repo.</p> -->
 
 ## Screenshoots
 ###### Hover the mouse cursor over the images for explanations.
