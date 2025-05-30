@@ -20,9 +20,6 @@ chose android
 # Screenshoots
 
 **Documentation**
-##### Presentation
-* Real Life Clean Architecture http://www.slideshare.net/mattiabattiston/real-life-clean-architecture-61242830
-
 ##### Blogs & Articles
 * The Clean Architecture https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html
 * Screaming Architecture http://blog.8thlight.com/uncle-bob/2011/09/30/Screaming-Architecture.html
