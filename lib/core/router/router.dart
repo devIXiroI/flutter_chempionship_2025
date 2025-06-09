@@ -39,6 +39,7 @@ class RouterConfigGo {
           ),
         ],
       ),
+      GoRoute(path: 'home', builder: (context, state) => HomeScreen()),
     ],
   );
 }
